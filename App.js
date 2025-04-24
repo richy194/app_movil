@@ -48,7 +48,7 @@ export default function App() {
                 {visibilityfilter === 'new_puntos'}
                 ?
                 <View style={styles.form}>
-                  <Input title='Nombre' placeholders='Nombre del puntinho' onchangetext={handlechangetext} />
+                  <Input title='Nombrecito' placeholders='Nombre del puntinho' onchangetext={handlechangetext} />
                   <Button title='aceptar' onpress={handlesubmit} />
                 </View>
                  :<List puntos={puntos} closeModal={() => setvisibility(false)} />
